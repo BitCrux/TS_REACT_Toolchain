@@ -1,0 +1,53 @@
+// https://tooling.js.org
+
+// https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658
+// https://www.javatpoint.com/react-installation
+
+
+ESLint: npm install --save-dev eslint eslint-plugin-react
+
+-Finds syntax errors
+-Enforces code style
+-Finds not obvious problems like typos
+-Configurable via rules
+
+-> Add eslintrc.json for configuration
+
+Babel: npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-typescript @babel/preset-react
+
+-Not all browsers have the same JS engine
+-Different browsers support different syntax versions
+-Babel translates modern JS to JS the configured browsers understand
+
+-> Add babel.config.json for configuration
+
+Webpack: npm install --save-dev webpack webpack-cli
+
+-Bundler collecting files and building files containing all code
+-Enables to give structure to applications
+-Allows also for complex setups
+
+TypeScipt: npm install --save-dev typescript
+
+-Static type checkers for JS
+-Allow to find errors before running code
+-Adds new syntaxes, which is stripped during build process
+
+-> Add tsconfig.json for configuration
+
+TypeScript ESLint-Parser: npm install --save-dev typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+
+// https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
+
+Babel-Loader: npm install --save-dev babel-loader @babel/core @babel/preset-env webpack
+
+// https://webpack.js.org/loaders/babel-loader/
+
+React: npm install react react-dom
+
+-React-Dom is a react renderer for web
+-react provides the necessary functionality to define react components
+
+Types for React: npm install --save-dev @types/react @types/react-dom
+
+-Type definitions for React (react-dom)
