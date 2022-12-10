@@ -3,7 +3,10 @@
         "target":"ES6",
         "module": "CommonJS",
         "sourceMap": true,
-        "noEmit": true
+        "noEmit": true,
+        "noImplicitAny": true,
+        "jsx": "preserve",
+        "lib": ["ES2022", "dom"]
     },
     "include": [
         "src/**/*"
